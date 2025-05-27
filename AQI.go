@@ -229,6 +229,10 @@ func main() {
 
 		} else if pilihan == 7 {
 			sortByAQISelection()
+			tampilkanData()
+		}  else if pilihan == 8 {
+			sortByDateInsertion()
+			tampilkanData()
 
 		} else if pilihan == 9 {
 			fmt.Println("Keluar dari program.")
